@@ -1,0 +1,29 @@
+.homeImage {
+  position: relative;
+  height: 100vh;
+  background-image: url("../../../imageFolder/home.jpg");
+  background-size: cover;
+
+  img {
+    max-width: 100%;
+  }
+  h1 {
+    text-align: center;
+    margin: 0;
+    margin-top: 19%;
+    font-size: 6em;
+    color: #fff;
+    opacity: 0.8;
+  }
+  @media only screen and (max-width: 768px) {
+    //スマートフォン用
+    h1 {
+      text-align: center;
+      margin: 0;
+      margin-top: 60%;
+      font-size: 3.5em;
+      color: #fff;
+      opacity: 0.8;
+    }
+  }
+}

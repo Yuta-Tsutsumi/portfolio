@@ -1,0 +1,122 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  //スマートフォン用
+  .topImage {
+    position: relative;
+    .image {
+      position: absolute;
+    }
+    .header {
+      max-width: 100%;
+    }
+    .middleImage {
+      text-align: center;
+      position: absolute;
+      margin-top: 30%;
+    }
+  }
+
+  .letterBottom {
+    text-align: center;
+    margin-top: 80%;
+
+    opacity: 0.8;
+    line-height: 0.5em;
+    p {
+      font-size: 1.7em;
+    }
+    a {
+      font-size: 1.7em;
+    }
+  }
+  .letterProfile {
+    text-align: center;
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  //PC用
+  .topImage {
+    position: relative;
+    .image {
+      position: absolute;
+    }
+    .header {
+      position: absolute;
+      width: 100%;
+    }
+  }
+  .middleImage {
+    z-index: 2;
+    position: absolute;
+    left: 30%;
+    right: 10%;
+    margin-top: 20%;
+  }
+
+  .letterBottom {
+    padding-top: 23%;
+    padding-left: 55%;
+    font-size: 1.9em;
+
+    a {
+      opacity: 0.8;
+    }
+    .linkTwitter {
+      display: inline-block;
+      cursor: pointer;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      &:hover {
+        transform: translateY(-0.1875em);
+      }
+    }
+    .linkGithub {
+      position: relative;
+      display: inline-block;
+      text-decoration: none;
+      transition: all 0.15s ease;
+      &::after {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background: #028cfd;
+        transition: all 0.3s ease;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+      &:hover::after {
+        width: 100%;
+      }
+    }
+    .linkQiita {
+      transition: all 0.15s ease;
+      &:hover {
+        letter-spacing: 5px;
+        transition: all 0.3s ease;
+      }
+    }
+  }
+  .letterProfile {
+    text-align: center;
+    margin-top: 8%;
+    h2 {
+      font-size: 50px;
+      opacity: 0.8;
+    }
+  }
+}

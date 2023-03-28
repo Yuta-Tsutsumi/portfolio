@@ -1,0 +1,266 @@
+@media only screen and (max-width: 768px) {
+  .contactPages {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../../imageFolder/Contact.jpg");
+    object-fit: cover;
+    background-size: cover;
+    a {
+      color: #000;
+    }
+    h2 {
+      text-align: center;
+      margin: 0;
+      padding-top: 15px;
+      font-size: 1.7em;
+      color: #000;
+      opacity: 0.8;
+      margin-bottom: 60px;
+    }
+  }
+  .inputWrapper {
+    text-align: center;
+    .textForm {
+      position: relative;
+      .textBox {
+        position: relative;
+        padding: 5px 10px;
+        border-radius: 5px;
+        width: 80%;
+        height: 40px;
+        opacity: 0.8;
+        font-size: 15px;
+        border-width: 0 0 2px 0;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 400;
+        &:focus {
+          outline: none;
+          border: 2px solid #76bb74;
+          border-width: 0 0 2px 0;
+          color: #000;
+        }
+      }
+    }
+    .emailForm {
+      position: relative;
+      .emailBox {
+        margin-top: 60px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        width: 80%;
+        height: 40px;
+        opacity: 0.8;
+        font-size: 15px;
+        border-width: 0 0 2px 0;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 400;
+        &:focus {
+          outline: none;
+          border: 2px solid #76bb74;
+          border-width: 0 0 2px 0;
+          color: #000;
+        }
+      }
+    }
+    .messageForm {
+      position: relative;
+      .messageBox {
+        margin-top: 50px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        width: 80%;
+        height: 100px;
+        opacity: 0.8;
+        font-size: 15px;
+        border-width: 0 0 2px 0;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 400;
+        &:focus {
+          outline: none;
+          border: 2px solid #76bb74;
+          border-width: 0 0 2px 0;
+          color: #000;
+        }
+      }
+    }
+    .errorsMessage {
+      font-size: 20px;
+      font-weight: bolder;
+      color: red;
+    }
+  }
+  .buttonBox {
+    text-align: center;
+    .submitButton {
+      text-align: center;
+      margin-top: 100px;
+      padding: 0px 36px;
+      border-radius: 5px;
+      border: 2px solid #76bb74;
+      line-height: 43px;
+      font-size: 15px;
+      font-weight: 700;
+      color: #76bb74;
+      transition: all 0.15s ease;
+      &:hover {
+        border: 2px solid #55a752;
+        line-height: 43px;
+        color: #fff;
+        background-color: #76bb74;
+        transition: all 0.3s ease;
+      }
+      &:active {
+        position: relative;
+        top: 7px;
+        box-shadow: none;
+      }
+    }
+    .contactTextLink {
+      padding: 70px 0;
+      font-size: 50px;
+    }
+    .buttonType {
+      margin-top: 38px;
+    }
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  //PC用
+  .contactPages {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../../imageFolder/Contact.jpg");
+    object-fit: cover;
+    background-size: cover;
+    a {
+      color: #000;
+    }
+    h2 {
+      text-align: center;
+      margin-top: 3%;
+      padding-top: 15px;
+      font-size: 50px;
+      color: #000;
+      opacity: 0.8;
+      margin-bottom: 60px;
+    }
+    .inputWrapper {
+      text-align: center;
+      .textForm {
+        position: relative;
+        .textBox {
+          position: relative;
+          margin-top: 1%;
+          padding: 5px 10px;
+          border-radius: 5px;
+          width: 400px;
+          height: 40px;
+          font-size: 15px;
+          border-width: 0 0 2px 0;
+          font-size: 18px;
+          line-height: 26px;
+          font-weight: 400;
+          &:focus {
+            outline: none;
+            border: 2px solid #76bb74;
+            border-width: 0 0 2px 0;
+            color: #000;
+          }
+        }
+      }
+      .emailForm {
+        position: relative;
+        .emailBox {
+          margin-top: 60px;
+          padding: 5px 10px;
+          border-radius: 5px;
+          width: 400px;
+          height: 40px;
+          font-size: 15px;
+          border-width: 0 0 2px 0;
+          font-size: 18px;
+          line-height: 26px;
+          font-weight: 400;
+          &:focus {
+            outline: none;
+            border: 2px solid #76bb74;
+            border-width: 0 0 2px 0;
+            color: #000;
+          }
+        }
+      }
+      .messageForm {
+        position: relative;
+        .messageBox {
+          padding: 5px 10px;
+          border-radius: 5px;
+          width: 400px;
+          height: 130px;
+          font-size: 15px;
+          border-width: 0 0 2px 0;
+          font-size: 18px;
+          line-height: 26px;
+          font-weight: 400;
+          margin-top: 50px;
+          &:focus {
+            outline: none;
+            border: 2px solid #76bb74;
+            border-width: 0 0 2px 0;
+            color: #000;
+          }
+        }
+      }
+      .errorsMessage {
+        font-size: 20px;
+        font-weight: bolder;
+        color: red;
+      }
+    }
+    .buttonBox {
+      text-align: center;
+      .submitButton {
+        text-align: center;
+        margin-top: 100px;
+        padding: 0px 36px;
+        border-radius: 5px;
+        border: 2px solid #76bb74;
+        line-height: 43px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #76bb74;
+        transition: all 0.15s ease;
+        &:hover {
+          border: 2px solid #55a752;
+          line-height: 43px;
+          color: #fff;
+          background-color: #76bb74;
+          transition: all 0.3s ease;
+        }
+        &:active {
+          position: relative;
+          top: 7px;
+          box-shadow: none;
+        }
+      }
+      .contactTextLink {
+        padding: 70px 0;
+        font-size: 50px;
+      }
+      .buttonType {
+        margin-top: 38px;
+      }
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+    }
+  }
+}
