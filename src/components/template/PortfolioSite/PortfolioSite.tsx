@@ -44,9 +44,9 @@ const PortfolioSite = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <span>
+                    {/* <span>
                       <FontAwesomeIcon icon={faTwitter} />
-                    </span>
+                    </span> */}
                   </a>
                   /
                   <a
@@ -55,9 +55,9 @@ const PortfolioSite = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <span>
+                    {/* <span>
                       <FontAwesomeIcon icon={faGithub} />
-                    </span>
+                    </span> */}
                   </a>
                   /
                   <a
@@ -108,9 +108,9 @@ const PortfolioSite = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <span>
+                    {/* <span>
                       <FontAwesomeIcon icon={faTwitter} />
-                    </span>
+                    </span> */}
                   </a>
                   /
                   <a
@@ -119,9 +119,9 @@ const PortfolioSite = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <span>
+                    {/* <span>
                       <FontAwesomeIcon icon={faGithub} />
-                    </span>
+                    </span> */}
                   </a>
                   /
                   <a

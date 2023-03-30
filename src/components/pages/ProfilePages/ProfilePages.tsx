@@ -29,10 +29,10 @@ const ProfilePages: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span>
+          {/* <span>
             <FontAwesomeIcon icon={faTwitter} />
             &nbsp;Twitter&nbsp;
-          </span>
+          </span> */}
         </a>
         /
         <a
@@ -41,10 +41,10 @@ const ProfilePages: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span>
+          {/* <span>
             <FontAwesomeIcon icon={faGithub} />
             &nbsp;Github&nbsp;
-          </span>
+          </span> */}
         </a>
         /
         <a
