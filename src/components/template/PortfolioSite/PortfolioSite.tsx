@@ -1,9 +1,8 @@
 import React from "react";
+import { RiTwitterFill } from "react-icons/ri";
+import { AiFillGithub } from "react-icons/ai";
 import movie from "../../../imageFolder/movie.png";
 import portfolio from "../../../imageFolder/portfolio.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import styles from "./PortfolioSite.module.scss";
 
 const PortfolioSite = () => {
@@ -44,9 +43,9 @@ const PortfolioSite = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {/* <span>
-                      <FontAwesomeIcon icon={faTwitter} />
-                    </span> */}
+                    <span>
+                      <RiTwitterFill style={{ marginTop: "10px" }} />
+                    </span>
                   </a>
                   /
                   <a
@@ -55,9 +54,9 @@ const PortfolioSite = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {/* <span>
-                      <FontAwesomeIcon icon={faGithub} />
-                    </span> */}
+                    <span>
+                      <AiFillGithub />
+                    </span>
                   </a>
                   /
                   <a
@@ -108,9 +107,9 @@ const PortfolioSite = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {/* <span>
-                      <FontAwesomeIcon icon={faTwitter} />
-                    </span> */}
+                    <span>
+                      <RiTwitterFill />
+                    </span>
                   </a>
                   /
                   <a
@@ -119,9 +118,9 @@ const PortfolioSite = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {/* <span>
-                      <FontAwesomeIcon icon={faGithub} />
-                    </span> */}
+                    <span>
+                      <AiFillGithub />
+                    </span>
                   </a>
                   /
                   <a

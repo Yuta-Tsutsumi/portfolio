@@ -1,10 +1,9 @@
 import React from "react";
+import { RiTwitterFill } from "react-icons/ri";
+import { AiFillGithub } from "react-icons/ai";
 import ProfileImage from "../../molecules/ProfileImage/ProfileImage";
 import profileTopImage from "../../../imageFolder/profileTopImage.jpg";
 import HeaderLink from "../../molecules/HeaderLink/HeaderLink";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import styles from "./ProfilePages.module.scss";
 
 const ProfilePages: React.FC = () => {
@@ -29,10 +28,10 @@ const ProfilePages: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {/* <span>
-            <FontAwesomeIcon icon={faTwitter} />
+          <span>
+            <RiTwitterFill />
             &nbsp;Twitter&nbsp;
-          </span> */}
+          </span>
         </a>
         /
         <a
@@ -41,10 +40,10 @@ const ProfilePages: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {/* <span>
-            <FontAwesomeIcon icon={faGithub} />
+          <span>
+            <AiFillGithub />
             &nbsp;Github&nbsp;
-          </span> */}
+          </span>
         </a>
         /
         <a
