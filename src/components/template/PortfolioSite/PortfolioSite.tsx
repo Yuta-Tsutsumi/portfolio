@@ -77,7 +77,7 @@ const PortfolioSite = () => {
             <div className={styles.imageBox}>
               <h3>Portfolio Site</h3>
               <div className={styles.image}>
-                <a href="https://main.d20u4ljofm9ii1.amplifyapp.com/">
+                <a href="https://main.d26pg9lcxh94j6.amplifyapp.com/">
                   <img src={portfolio} alt="ポートフォリオ写真" />
                 </a>
               </div>
