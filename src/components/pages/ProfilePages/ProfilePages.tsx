@@ -48,7 +48,7 @@ const ProfilePages: React.FC = () => {
         /
         <a
           className={styles.linkQiita}
-          href="https://qiita.com/Yuta-Tsutsumi/items/4c29b64f1344d3a2b38e"
+          href="https://qiita.com/Yuta-Tsutsumi"
           target="_blank"
           rel="noopener noreferrer"
         >
