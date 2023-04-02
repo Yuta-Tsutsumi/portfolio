@@ -32,9 +32,9 @@ const PortfolioSite = () => {
                 </p>
                 <h4>主な使用技術</h4>
                 <p>
-                  React/TypeScript/Sass/AWS Amplify
+                  React / TypeScript / Sass / AWS Amplify
                   <br />
-                  useState/useEffect
+                  useState / useEffect / axios
                 </p>
                 <div className={styles.link}>
                   <a
@@ -96,9 +96,9 @@ const PortfolioSite = () => {
                 </p>
                 <h4>主な使用技術</h4>
                 <p>
-                  React/TypeScript/Sass/AWS Amplify
+                  React / TypeScript / Sass / AWS Amplify
                   <br />
-                  React Hook Form/React Router
+                  React Hook Form / React Router
                 </p>
                 <div className={styles.link}>
                   <a
