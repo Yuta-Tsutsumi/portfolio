@@ -36,7 +36,7 @@ const ProfilePages: React.FC = () => {
         /
         <a
           className={styles.linkGithub}
-          href="https://github.com/Yuta-Tsutsumi/portfolio-site"
+          href="https://github.com/Yuta-Tsutsumi?tab=repositories"
           target="_blank"
           rel="noopener noreferrer"
         >
