@@ -3,6 +3,8 @@
 <img width="500" alt="portfolio 339422e5" src="https://user-images.githubusercontent.com/64819709/145509592-99758ae3-798c-42ec-8dab-de32a3310469.png">
 <a href ="https://main.d26pg9lcxh94j6.amplifyapp.com">サイトのURL</a>
 
+<a href = "https://qiita.com/Yuta-Tsutsumi/items/4c29b64f1344d3a2b38e">Qiita</a>
+
 <h1>使用技術</h1>
 <p>React</p>
 <p>Typescript</p>
