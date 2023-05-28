@@ -6,6 +6,7 @@
 <a href = "https://qiita.com/Yuta-Tsutsumi/items/4c29b64f1344d3a2b38e">Qiita</a>
 
 <h1>使用技術</h1>
+
 <a href="https://ja.legacy.reactjs.org/">React</a>
 
 <a href="https://www.typescriptlang.org/">TypeScript</a>
