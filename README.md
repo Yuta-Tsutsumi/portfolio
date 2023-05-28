@@ -6,14 +6,21 @@
 <a href = "https://qiita.com/Yuta-Tsutsumi/items/4c29b64f1344d3a2b38e">Qiita</a>
 
 <h1>使用技術</h1>
-<p>React</p>
-<p>Typescript</p>
-<p>HTML</p>
-<p>sass(scss)</p>
-<p>React Hook Form</p>
-<p>React Router</p>
-<p>AWS Amplify</p>
-<p>react-icons</p>
+<a href="https://ja.legacy.reactjs.org/">React</a>
+
+<a href="https://www.typescriptlang.org/">TypeScript</a>
+
+<a href="https://html.spec.whatwg.org/multipage/">HTML</a>
+
+<a href="https://sass-lang.com/documentation/">Sass</a>
+
+<a href="https://docs.amplify.aws/start/q/integration/react-native/?sc_icampaign=react-native-start&sc_ichannel=docs-home">AWS Amplify</a>
+
+<a href="https://react-hook-form.com/">React Hook Form</a>
+
+<a href="https://v5.reactrouter.com/">React Router</a>
+
+<a href="https://react-icons.github.io/react-icons">React Icons</a>
 
 <h1>作成にあたり苦労した点・又どの様に乗り越えたか</h1>
 <p>今回ポートフォリオサイトに取り掛かるなかで、お問い合わせフォーム作成に一番苦労しました。
