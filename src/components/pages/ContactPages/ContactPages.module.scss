@@ -238,7 +238,7 @@
         color: hsl(118, 34%, 59%);
         transition: all 0.15s ease;
         &:hover {
-          border: 2px solid #55a752;
+          border: 2px solid hsl(118, 34%, 49%);
           line-height: 43px;
           color: #fff;
           background-color: #76bb74;
