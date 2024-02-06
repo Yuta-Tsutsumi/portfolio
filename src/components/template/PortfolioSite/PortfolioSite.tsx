@@ -15,7 +15,7 @@ const PortfolioSite = () => {
             <div className={styles.imageBox}>
               <h3>movie Site</h3>
               <div className={styles.image}>
-                <a href="https://main.d2579k8bjr1zzf.amplifyapp.com/">
+                <a href="https://main.d2waztlnfjnb79.amplifyapp.com ">
                   <img src={movie} alt="映画サイト" />
                 </a>
               </div>
@@ -77,7 +77,7 @@ const PortfolioSite = () => {
             <div className={styles.imageBox}>
               <h3>Portfolio Site</h3>
               <div className={styles.image}>
-                <a href="https://main.d26pg9lcxh94j6.amplifyapp.com/">
+                <a href="https://main.d3m210uez05lyb.amplifyapp.com ">
                   <img src={portfolio} alt="ポートフォリオ写真" />
                 </a>
               </div>
